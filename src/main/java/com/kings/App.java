@@ -1,5 +1,7 @@
 package com.kings;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class App 
@@ -9,6 +11,7 @@ public class App
         System.out.println( "Hello World!" );
         String fecha;
         Date ahora = new Date();
-        System.out.println(ahora.parse("yyy-MM-dd"));
+        //LocalDate localDateTime new LocalDate();
+        System.out.println(ahora);
     }
 }

@@ -9,6 +9,6 @@ public class App
         System.out.println( "Hello World!" );
         String fecha;
         Date ahora = new Date();
-        System.out.println(ahora.parse("yyy-MM-dd"));
+        System.out.println("ESTOY EN PRUEBAS 2");
     }
 }
